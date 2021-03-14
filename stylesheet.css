@@ -70,9 +70,8 @@ section h2 span {
 	background: #fff;
 	padding: 10px 80px;
 	font-family: 'Pacifico', cursive;
-	position: relative;
-	left: 480px;
 	font-size: 30px;
+	text-align: center;
 }
 
 .inner{
