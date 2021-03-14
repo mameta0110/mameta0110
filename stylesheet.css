@@ -132,3 +132,10 @@ section h2 span {
           text-align: center;
           }
 }
+
+@media(max-width: 1000px) {
+    section h2 span {
+	    text-align: center;
+	    }
+}
+
