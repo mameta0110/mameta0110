@@ -1,0 +1,121 @@
+@import url(http://fonts.googleapis.com/earlyaccess/notosansjp.css);
+@import url(https://fonts.googleapis.com/css?family=Pacifico);
+
+/* reset */
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td{margin:0;padding:0;}
+address,caption,cite,code,dfn,em,strong,th,var{font-style:normal;}
+ul{list-style:none;}
+table{border-collapse:collapse;border-spacing:0;}
+caption,th{text-align:left;}
+q:before,q:after{content:'';}
+object,embed{vertical-align:top;}
+legend{display:none;}
+h1,h2,h3,h4,h5,h6{font-size:100%;}
+img,abbr,acronym,fieldset{border:0;}
+
+header {
+	font: 26px/1.9 'Noto Sans JP', Arial, Verdana, YuGothic, 'Hiragino Kaku Gothic ProN', Meiryo,sans-serif;
+	font-weight: 500;
+	-webkit-text-size-adjust:100%;
+	overflow-x: hidden;
+	color: #fff;
+	background-image: url(images/mameta2.JPG);
+	background-size: cover;
+	height: 100vh;
+	padding-top: 20px;
+}
+
+a{
+	color: #fff;
+	text-decoration: none;
+	float: left;ß
+	padding: 10px;
+}
+
+a:active, a:focus,input:active, input:focus{outline:0;}
+
+header{
+	text-align: center;
+}
+
+.header-right {
+	color: #fff;
+	text-align: center;
+	font-family: 'M PLUS Rounded 1c', sans-serif;
+	font-size: 80px;
+}
+
+header h1{
+	padding-top: 60px;
+}
+
+.header-list h3 {
+	color: black;
+	text-align: center;
+	padding: 20px 30px;
+	font-family: 'Pacifico', cursive;
+}
+
+img{
+	max-width: 100%;
+	height: auto;
+}
+
+section{
+	clear: both;
+	padding-top: 70px;
+}
+
+section h2 span {
+	background: #fff;
+	padding: 10px 80px;
+	font-family: 'Pacifico', cursive;
+	position: relative;
+	left: 480px;
+	font-size: 30px;
+}
+
+.inner{
+	width: 94%;
+	margin: 0 auto;
+	padding-bottom: 50px;
+}
+
+.inner p {
+	text-align: center;
+}
+
+#sec02{
+	padding: 0 !important;
+}
+
+.col3 img{
+	display: block;
+	margin: 0 auto 5px;
+}
+
+.col3 li{
+	line-height: 2.0;
+}
+
+.col3 .img{
+	padding: 80px 50px;
+	margin-bottom: 40px;
+	line-height: 0 !important;
+	background: #f6f6f6;
+}
+
+.sns {
+	position: relative;
+	top: 20px;
+}
+
+.fa-instagram {
+	padding: 40px 260px;
+	color: black;
+}
+
+.fa-youtube {
+	padding: 40px 260px;
+	color: black;
+}
